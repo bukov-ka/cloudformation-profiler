@@ -1,0 +1,24 @@
+{
+  "name": "cf-profiler",
+  "version": "1.0.0",
+  "description": "CloudFormation profiler script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CloudFormation",
+    "profiler",
+    "AWS"
+  ],
+  "author": "Konstantin Borisov",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudformation": "^3.716.0",
+    "@aws-sdk/credential-providers": "^3.716.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
