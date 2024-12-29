@@ -114,7 +114,7 @@ async function main() {
 
   if (!stackName || !profile) {
     console.error(
-      "Usage: ts-node cf-profiler.ts <stack-name> <aws-profile> [region]"
+      "Usage: ts-node index.ts <stack-name> <aws-profile> [region]"
     );
     process.exit(1);
   }
